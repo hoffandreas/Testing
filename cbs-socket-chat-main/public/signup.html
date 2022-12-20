@@ -1,0 +1,44 @@
+<html>
+<head>
+    <script src="server.js"></script>
+    <link rel="shortcut icon" href="WINE1.JPEG" type="image/x-icon">
+    <title>TheHoffs</title>
+<h1>
+    Create a user for The Hoffs WineTalk
+</h1>
+</head>
+<body>
+
+    <hr>
+    <form action="/signup"  method="POST"  >
+        <div class="input-field">
+            <input type="text" name="username" id="username" placeholder="Create username" required>
+        </div>
+
+        <hr>
+        <div class="input-field">
+            <input type="password" name="password" id="password" placeholder="Create password" required>
+        </div>
+
+        <hr>
+        <input type="submit" value="Create user"></form></br>
+         <a href="login.html" id="link">Have a user?</a>
+    </form>
+
+</body>
+<style>
+    #link{
+        margin-bottom: 100px;
+    }
+    body {
+      background-image: url('https://imageio.forbes.com/specials-images/imageserve/63827c62edb91f36d5f35934/The-top-ranked-white-wines-from-the-2022-San-Francisco-International-WIne-Competition/0x0.jpg?format=jpg&crop=1024,539,x0,y141,safe&width=960');
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+    * {
+        text-align: center;
+    };
+</style>
+</html>
