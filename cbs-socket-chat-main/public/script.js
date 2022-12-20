@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var socket = io.connect('http://localhost:3001/index.html');
+  var socket = io.connect('http://localhost:3001');
   var username = prompt("What is your name?");
   socket.emit('join', username);
   
